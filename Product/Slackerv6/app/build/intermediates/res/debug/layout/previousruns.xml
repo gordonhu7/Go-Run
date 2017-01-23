@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0cf5ff"
+    android:id="@+id/previousruns"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/runs"
+        android:textColor="#ffffffff"
+        />
+
+    <Button
+        android:id="@+id/TEST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:textSize="30px"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="275sp"
+        android:layout_centerHorizontal="false"
+        android:width="100sp"
+        android:height="50sp"
+        android:background="#ffffffff"
+        android:textColorHighlight="#ff17ecff"
+        android:clickable="true"
+        android:onClick="goHome"
+        style="?android:attr/borderlessButtonStyle"/>
+</LinearLayout><!-- From: file:/C:/Users/Gordon/AndroidStudioProjects/Slackerv6/app/src/main/res/layout/previousruns.xml -->

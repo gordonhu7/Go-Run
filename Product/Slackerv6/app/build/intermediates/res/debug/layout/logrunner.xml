@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0cf5ff"
+    android:id="@+id/logrunner"
+    >
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:text="Enter information from your run"
+        android:textSize="50px"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:textColor="#fffdfffb"
+        />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:imeOptions="actionSend"
+        android:hint="Date:"
+        android:textColor="#ffffffff"
+        android:inputType="textCapSentences"
+        />
+
+    <EditText
+        android:id="@+id/place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:imeOptions="actionSend"
+        android:hint="Place:"
+        android:textColor="#ffffffff" />
+    <EditText
+        android:id="@+id/distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:imeOptions="actionSend"
+        android:hint="Distance:"
+        android:textColor="#ffffffff" />
+    <EditText
+        android:id="@+id/duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:imeOptions="actionSend"
+        android:hint="Duration:"
+        android:textColor="#ffffffff" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:imeOptions="actionSend"
+        android:hint="Description:"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:id="@+id/savedata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:textSize="30px"
+        android:layout_marginTop="80sp"
+        android:layout_marginLeft="100sp"
+        android:layout_centerHorizontal="true"
+        android:width="100sp"
+        android:height="50sp"
+        android:background="#ffffffff"
+        android:textColorHighlight="#ff17ecff"
+        android:clickable="true"
+        android:onClick="save"
+        android:layout_gravity="right"
+        />
+
+    <Button
+        android:id="@+id/back1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:textSize="30px"
+        android:layout_marginTop="-50sp"
+        android:layout_marginLeft="0sp"
+        android:layout_centerHorizontal="false"
+        android:width="100sp"
+        android:height="50sp"
+        android:background="#ffffffff"
+        android:textColorHighlight="#ff17ecff"
+        android:clickable="true"
+        android:onClick="goHome" />
+
+</LinearLayout><!-- From: file:/C:/Users/Gordon/AndroidStudioProjects/Slackerv6/app/src/main/res/layout/logrunner.xml -->

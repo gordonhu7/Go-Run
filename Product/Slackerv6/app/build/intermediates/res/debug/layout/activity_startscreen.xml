@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".StartScreen"
+    android:background="#ff0cf5ff"
+    android:focusable="false"
+    android:clickable="false"
+    android:transitionGroup="true"
+    android:id="@+id/startscreen">
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:text="Welcome to Slacker"
+        android:textSize="100px"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:textColor="#fffdf8ff"
+        />
+
+    <Button
+        android:id="@+id/logrunner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log a Run"
+        android:textSize="50px"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:width="200sp"
+        android:height="75sp"
+        android:background="#ffffffff"
+        android:textColorHighlight="#ff17ecff"
+        style="?android:attr/borderlessButtonStyle"
+        android:onClick="logRun"
+        />
+
+    <Button
+        android:id="@+id/previousruns"
+        android:layout_width="200sp"
+        android:layout_height="75sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="316dp"
+        android:background="#ffffffff"
+        android:text="View Past Runs"
+        android:textSize="50px"
+        style="?android:attr/borderlessButtonStyle"
+        android:onClick="previousLogs"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:editable="true"
+        android:clickable="true" />
+
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Gordon/AndroidStudioProjects/Slackerv6/app/src/main/res/layout/activity_startscreen.xml -->
